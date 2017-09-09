@@ -1,1 +1,75 @@
-// Specific CSS for your home-page
+/*Colour scheme and fonts*/
+body {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #313131;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: semi-bold;
+}
+
+h4 {
+  font-weight: normal;
+  color: #7C7C7C;
+}
+
+/*Custome design with class*/
+
+.banner {
+  background-image: url("http://unsplash.it/1920/270");
+  background-size: cover;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 38;
+}
+
+.banner p {
+  font-size: 25px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.link {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  text-decoration: none;
+  color: #8A8A8A;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.link:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+.container {
+  margin: 100px auto;
+}
+
+@media(min-width: 320px){
+  .container {
+    width: 300px;
+  }
+}
+@media(min-width: 768px){
+  .container {
+    width: 500px;
+  }
+}
+@media(min-width: 900px){
+  .container {
+    width: 700px;
+  }
+}
