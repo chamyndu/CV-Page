@@ -25,9 +25,15 @@ h5 {
   line-height: 1.5;
 }
 
+ul, .list-inline {
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+
 /*Custome design with class*/
-.av {
+.screen40 {
   height: 40vh;
+  text-align: center;
 }
 
 .banner {
