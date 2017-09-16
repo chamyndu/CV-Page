@@ -31,7 +31,7 @@ h5 {
 }
 
 .banner {
-  background-image: url("http://oi68.tinypic.com/34ipzf4.jpg");
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("http://oi68.tinypic.com/34ipzf4.jpg");
   background-position: center bottom;
   background-size: cover;
   color: white;
@@ -54,7 +54,7 @@ h5 {
 .banner p {
   font-size: 25px;
   font-style: italic;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .link {
